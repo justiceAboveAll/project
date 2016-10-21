@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLInfoCollectionService", "SQLInfoHarvesterService\SQLInfoCollectionService.csproj", "{7769D0AB-C1C3-49F1-B0B7-139FB7856B3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{106527E8-DDFF-4D35-945C-FE24426B27CD} = {106527E8-DDFF-4D35-945C-FE24426B27CD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALLib", "DALLib\DALLib.csproj", "{106527E8-DDFF-4D35-945C-FE24426B27CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "CommonLib\CommonLib.csproj", "{869B6AC3-499B-4982-8C7A-8AD56A01FF6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{F9CB179B-7451-4EF8-A87A-60077624BD40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleForTesting", "ConsoleForTesting\ConsoleForTesting.csproj", "{FF19B52A-9DD8-41AF-AA3C-9D59A7092941}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApiNetCore", "..\..\..\..\Desktop\WebApplication2\WebApiNetCore.xproj", "{306424F1-0274-41D5-8DBD-D43CCD1BB337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7769D0AB-C1C3-49F1-B0B7-139FB7856B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7769D0AB-C1C3-49F1-B0B7-139FB7856B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7769D0AB-C1C3-49F1-B0B7-139FB7856B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7769D0AB-C1C3-49F1-B0B7-139FB7856B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106527E8-DDFF-4D35-945C-FE24426B27CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106527E8-DDFF-4D35-945C-FE24426B27CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106527E8-DDFF-4D35-945C-FE24426B27CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106527E8-DDFF-4D35-945C-FE24426B27CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869B6AC3-499B-4982-8C7A-8AD56A01FF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869B6AC3-499B-4982-8C7A-8AD56A01FF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869B6AC3-499B-4982-8C7A-8AD56A01FF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869B6AC3-499B-4982-8C7A-8AD56A01FF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CB179B-7451-4EF8-A87A-60077624BD40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CB179B-7451-4EF8-A87A-60077624BD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CB179B-7451-4EF8-A87A-60077624BD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CB179B-7451-4EF8-A87A-60077624BD40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF19B52A-9DD8-41AF-AA3C-9D59A7092941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF19B52A-9DD8-41AF-AA3C-9D59A7092941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF19B52A-9DD8-41AF-AA3C-9D59A7092941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF19B52A-9DD8-41AF-AA3C-9D59A7092941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306424F1-0274-41D5-8DBD-D43CCD1BB337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306424F1-0274-41D5-8DBD-D43CCD1BB337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306424F1-0274-41D5-8DBD-D43CCD1BB337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306424F1-0274-41D5-8DBD-D43CCD1BB337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://if-068net.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SQLInfoHarvesterService\\SQLInfoCollectionService.csproj
+		SccProjectName1 = SQLInfoHarvesterService
+		SccLocalPath1 = SQLInfoHarvesterService
+		SccProjectUniqueName2 = DALLib\\DALLib.csproj
+		SccProjectName2 = DALLib
+		SccLocalPath2 = DALLib
+		SccProjectUniqueName3 = CommonLib\\CommonLib.csproj
+		SccProjectName3 = CommonLib
+		SccLocalPath3 = CommonLib
+		SccProjectUniqueName4 = WebAPI\\WebAPI.csproj
+		SccProjectName4 = WebAPI
+		SccLocalPath4 = WebAPI
+		SccProjectUniqueName5 = ConsoleForTesting\\ConsoleForTesting.csproj
+		SccProjectName5 = ConsoleForTesting
+		SccLocalPath5 = ConsoleForTesting
+		SccProjectUniqueName6 = ..\\..\\..\\..\\Desktop\\WebApplication2\\WebApiNetCore.xproj
+		SccProjectName6 = WebApplication2
+		SccLocalPath6 = ..\\..\\..\\..\\Desktop\\WebApplication2
+	EndGlobalSection
+EndGlobal

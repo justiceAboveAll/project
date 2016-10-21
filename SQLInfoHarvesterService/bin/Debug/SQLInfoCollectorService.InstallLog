@@ -1,0 +1,92 @@
+﻿Installing assembly 'D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+   logfile = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+Rolling back assembly 'D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+   logfile = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+An exception occurred during the Rollback phase of the System.ServiceProcess.ServiceProcessInstaller installer.
+System.NullReferenceException: Object reference not set to an instance of an object.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+   logfile = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+Rolling back assembly 'D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+   logfile = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+An exception occurred during the Rollback phase of the System.ServiceProcess.ServiceProcessInstaller installer.
+System.NullReferenceException: Object reference not set to an instance of an object.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   assemblypath = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+   logfile = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+Installing service !SQLCollectionService...
+Creating EventLog source !SQLCollectionService in log Application...
+See the contents of the log file for the D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe assembly's progress.
+The file is located at D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog.
+Rolling back assembly 'D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+   assemblypath = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+Restoring event log to previous state for source !SQLCollectionService.
+Installing assembly 'D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   assemblypath = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+   logfile = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+Installing service !SQLCollectionService...
+Creating EventLog source !SQLCollectionService in log Application...
+See the contents of the log file for the D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe assembly's progress.
+The file is located at D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog.
+Rolling back assembly 'D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+   assemblypath = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+Restoring event log to previous state for source !SQLCollectionService.
+Installing assembly 'd:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   assemblypath = d:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+   logfile = d:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+Installing service !SQLCollectionService...
+Service !SQLCollectionService has been successfully installed.
+Creating EventLog source !SQLCollectionService in log Application...
+See the contents of the log file for the d:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe assembly's progress.
+The file is located at d:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog.
+Committing assembly 'd:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = d:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+   assemblypath = d:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+See the contents of the log file for the d:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe assembly's progress.
+The file is located at d:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog.
+Rolling back assembly 'd:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = d:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+   assemblypath = d:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+Restoring event log to previous state for source !SQLCollectionService.
+Service !SQLCollectionService is being removed from the system...
+Service !SQLCollectionService was successfully removed from the system.
+Installing assembly 'D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   assemblypath = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+   logfile = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+Installing service !SQLCollectionService...
+Creating EventLog source !SQLCollectionService in log Application...
+See the contents of the log file for the D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe assembly's progress.
+The file is located at D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog.
+Rolling back assembly 'D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.InstallLog
+   assemblypath = D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\bin\Debug\SQLInfoCollectorService.exe
+Restoring event log to previous state for source !SQLCollectionService.

@@ -1,0 +1,22 @@
+2016-10-18 21:45:20,383 [9] DEBUG SQLInfoCollectionService.Logger Install collection service... 
+2016-10-18 21:45:20,538 [9] ERROR SQLInfoCollectionService.Logger Install CollectionService error Cannot open Service Control Manager on computer '.'. This operation might require other privileges.
+2016-10-18 21:45:20,543 [9] ERROR SQLInfoCollectionService.Logger System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: Access is denied
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceInstaller.Install(IDictionary stateSaver)
+   at System.Configuration.Install.Installer.Install(IDictionary stateSaver)
+   at System.Configuration.Install.Installer.Install(IDictionary stateSaver)
+   at System.Configuration.Install.AssemblyInstaller.Install(IDictionary savedState)
+   at SQLInfoCollectionService.Program.InstallService(ILogger logger) in D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\Program.cs:line 71
+2016-10-18 21:45:20,636 [9] DEBUG SQLInfoCollectionService.Logger CollectionService already started! 
+2016-10-18 21:48:26,684 [1] DEBUG SQLInfoCollectionService.Logger Install collection service... 
+2016-10-18 21:48:31,872 [1] DEBUG SQLInfoCollectionService.Logger CollectionService already started! 
+2016-10-18 22:55:16,678 [10] DEBUG SQLInfoCollectionService.Logger Install collection service... 
+2016-10-18 22:55:16,783 [10] ERROR SQLInfoCollectionService.Logger Install CollectionService error Cannot open Service Control Manager on computer '.'. This operation might require other privileges.
+2016-10-18 22:55:16,789 [10] ERROR SQLInfoCollectionService.Logger System.InvalidOperationException: Cannot open Service Control Manager on computer '.'. This operation might require other privileges. ---> System.ComponentModel.Win32Exception: Access is denied
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceInstaller.Install(IDictionary stateSaver)
+   at System.Configuration.Install.Installer.Install(IDictionary stateSaver)
+   at System.Configuration.Install.Installer.Install(IDictionary stateSaver)
+   at System.Configuration.Install.AssemblyInstaller.Install(IDictionary savedState)
+   at SQLInfoCollectionService.Program.InstallService(ILogger logger) in D:\softserve\if-068.proj\SQLMonitor\SQLInfoHarvesterService\Program.cs:line 71
+2016-10-18 22:55:16,855 [10] DEBUG SQLInfoCollectionService.Logger CollectionService already started! 

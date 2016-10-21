@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <base href="/">
+    <title>SQL Monitor System</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="libs/core-js/shim.min.js"></script>
+    <script src="libs/zone.js/zone.js"></script>
+    <script src="libs/reflect-metadata/Reflect.js"></script>
+    <script src="libs/systemjs/system.src.js"></script>
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function (err) { console.error(err); });
+    </script>
+</head>
+<!-- 3. Display the application -->
+<body style="background-color:#edeef0; font-family:-apple-system, BlinkMacSystemFont, sans-serif;">
+    <my-app>Loading...</my-app>
+</body>
+</html>

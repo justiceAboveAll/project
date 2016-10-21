@@ -1,0 +1,56 @@
+﻿<br/><br/><br />
+
+<div class="col-md-1"></div>
+<div class="table-responsive col-md-10">
+
+    <table class="table table-striped" *ngIf="instances && instances.length && appState != 'extend'">
+
+        <thead>
+            <tr>
+                <th>Instance name</th>
+                <th>Server name</th>
+                <th>Version</th>
+                <th>Number of dbs</th>
+                <th>Number os users</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor='let instance of instances'>
+                <td>{{instance.instanceName}}</td>
+                <td>{{instance.serverName}}</td>
+                <td>{{instance.version}}</td>
+                <td id="centerText">{{instance.dbs }}</td>
+                <td id="centerText">{{instance.users }}</td>
+                <td>{{instance.status}}</td>
+
+                <th>
+                    <div class="btn-group btn-group-sm">
+                        <a class="btn btn-group ">
+                            <span (click)="onSelected(IInstance)" class="glyphicon glyphicon-zoom-in" aria-hidden="true" title="Details"></span>
+                        </a>
+                        <a class="btn btn-group">
+                            <span class="glyphicon glyphicon-refresh" aria-hidden="true" title="Refresh"></span>
+                        </a>
+                        <a class="btn btn-group">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true" title="Remove"></span>
+                        </a>
+                    </div>
+                </th>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <div *ngIf="appState =='extend'">
+
+            <div>
+                <a class='btn btn-default' (click) ="changeState('default')" style='width:80px'>
+                    <i class='glyphicon glyphicon-chevron-left'></i> Back
+                </a>
+            </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,38 @@
+2016-10-18 21:43:35,879 [9] DEBUG SQLInfoCollectionService.Logger Stop scheduler for jobtype = CheckStatus
+2016-10-18 21:43:35,901 [9] DEBUG SQLInfoCollectionService.Logger Stop scheduler for jobtype = Full
+2016-10-18 22:55:48,018 [9] DEBUG SQLInfoCollectionService.Logger Start scheduler for jobtype = CheckStatus interval = 300000 seconds
+2016-10-18 22:55:48,098 [9] DEBUG SQLInfoCollectionService.Logger post to BufferBlock new  job type=CheckStatus instanceName=SQLEXPRESS
+2016-10-18 22:55:48,101 [9] DEBUG SQLInfoCollectionService.Logger Start scheduler for jobtype = Full interval = 300000 seconds
+2016-10-18 22:55:48,113 [11] DEBUG SQLInfoCollectionService.Logger Start collecting status info, instance name = SQLEXPRESS
+2016-10-18 22:55:48,124 [9] DEBUG SQLInfoCollectionService.Logger post to BufferBlock new  job type=Full instanceName=SQLEXPRESS
+2016-10-18 22:55:48,124 [12] DEBUG SQLInfoCollectionService.Logger Start collecting full info instance name = SQLEXPRESS
+2016-10-18 22:55:48,138 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.GetDatabases.CollectDatabases
+2016-10-18 22:55:48,241 [11] DEBUG SQLInfoCollectionService.Logger End collecting status info, instance name = SQLEXPRESS
+2016-10-18 22:55:48,266 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetDatabaseRoles
+2016-10-18 22:55:48,436 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetDatabaseUsers
+2016-10-18 22:55:48,528 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetDatabasePermissions
+2016-10-18 22:55:48,710 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetInstanceInfo
+2016-10-18 22:55:48,724 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetInstanceRoles
+2016-10-18 22:55:48,734 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetInstanceLogins
+2016-10-18 22:55:48,757 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetInstancePermissions
+2016-10-18 22:55:48,775 [12] DEBUG SQLInfoCollectionService.Logger End collecting full info instance name = SQLEXPRESS
+2016-10-18 22:55:58,267 [6] DEBUG SQLInfoCollectionService.Logger CollectionInfoSaver received array for saving length=1
+2016-10-18 22:55:58,388 [6] DEBUG SQLInfoCollectionService.Logger InstanceUpdateFinished  job type=CheckStatus instanceName=SQLEXPRESS
+2016-10-18 22:55:58,778 [13] DEBUG SQLInfoCollectionService.Logger CollectionInfoSaver received array for saving length=1
+2016-10-18 22:56:02,593 [13] DEBUG SQLInfoCollectionService.Logger InstanceUpdateFinished  job type=Full instanceName=SQLEXPRESS
+2016-10-20 11:16:56,753 [9] DEBUG SQLInfoCollectionService.Logger Start scheduler for jobtype = CheckStatus interval = 300000 seconds
+2016-10-20 11:17:06,769 [9] DEBUG SQLInfoCollectionService.Logger post to BufferBlock new  job type=CheckStatus instanceName=SQLEXPRESS
+2016-10-20 11:17:06,784 [9] DEBUG SQLInfoCollectionService.Logger Start scheduler for jobtype = Full interval = 300000 seconds
+2016-10-20 11:17:06,800 [11] DEBUG SQLInfoCollectionService.Logger Start collecting status info, instance name = SQLEXPRESS
+2016-10-20 11:17:06,800 [9] DEBUG SQLInfoCollectionService.Logger post to BufferBlock new  job type=Full instanceName=SQLEXPRESS
+2016-10-20 11:17:06,800 [12] DEBUG SQLInfoCollectionService.Logger Start collecting full info instance name = SQLEXPRESS
+2016-10-20 11:17:06,815 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.GetDatabases.CollectDatabases
+2016-10-20 11:17:06,909 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetDatabaseRoles
+2016-10-20 11:17:06,956 [11] DEBUG SQLInfoCollectionService.Logger End collecting status info, instance name = SQLEXPRESS
+2016-10-20 11:17:07,128 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetDatabaseUsers
+2016-10-20 11:17:07,144 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetDatabasePermissions
+2016-10-20 11:17:07,159 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetInstanceInfo
+2016-10-20 11:17:07,175 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetInstanceRoles
+2016-10-20 11:17:07,190 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetInstanceLogins
+2016-10-20 11:17:07,206 [12] DEBUG SQLInfoCollectionService.Logger at SQLInfoCollectionService.Collectors.DatabaseCollector.GetInstancePermissions
+2016-10-20 11:17:07,237 [12] DEBUG SQLInfoCollectionService.Logger End collecting full info instance name = SQLEXPRESS
